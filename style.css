@@ -101,10 +101,11 @@ footer { border-top: 1px solid var(--line); padding: 32px 0 48px; font-size: 14p
 .doc th, .doc td { text-align: left; vertical-align: top; padding: 10px 12px 10px 0; border-bottom: 1px solid var(--line); }
 .doc th { color: var(--dim); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; }
 .table-scroll { overflow-x: auto; }
-.contact-card { background: #FFFFFF; color: #0A0A0A; border-radius: 22px; padding: 24px; margin: 24px 0 8px; }
-.contact-card p { color: #404040; margin: 4px 0 16px; }
-.contact-mail { display: block; font-family: var(--body); font-size: clamp(22px, 4.4vw, 32px); font-weight: 800; line-height: 1.25; color: #0A0A0A; text-decoration: underline; text-underline-offset: 4px; overflow-wrap: anywhere; }
-.contact-mail:hover { color: #0A0A0A; }
+.contact-card { background: #FFFFFF; color: #0A0A0A; border-radius: 28px; padding: 28px 24px; margin: 8px 0 48px; }
+.contact-card .contact-kicker { margin: 0 0 12px; font-size: 12px; font-weight: 800; letter-spacing: 0.2em; text-transform: uppercase; color: #525252; }
+.contact-card p { color: #404040; margin: 16px 0 0; }
+.contact-mail { display: flex; align-items: center; justify-content: center; width: 100%; min-height: 72px; padding: 18px 16px; border-radius: 18px; background: #0A0A0A; color: #FFFFFF !important; font-size: clamp(20px, 5.6vw, 28px); font-weight: 800; line-height: 1.2; text-align: center; text-decoration: none; overflow-wrap: anywhere; }
+.contact-mail:hover { background: #1A1A1A; color: #FFFFFF !important; }
 
 @media (max-width: 860px) {
   .hero { grid-template-columns: 1fr; padding-top: 24px; gap: 40px; }
